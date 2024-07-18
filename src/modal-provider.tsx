@@ -144,6 +144,7 @@ export default function ModalProvider({
       const handleClose = (...args: any[]) => {
         if (options && options.hideOnClose) {
           hide(id);
+
         }
 
         if (options && options.destroyOnClose && options.hideOnClose) {
